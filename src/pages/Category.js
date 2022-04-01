@@ -49,7 +49,7 @@ function Category() {
       </Container>
     </Navbar>
 
-        <Container className="py-5" style={{backgroundColor: 'black', padding:'30px 100px', minHeight: '80vh' }} fluid>
+        <Container className="py-5" style={{backgroundColor: 'black', padding:'30px 100px', minHeight: '88vh' }} fluid>
           <p className="h4 text-white mb-4">List Category</p>
       <Row>
             <Table striped bordered hover variant="dark">

@@ -35,7 +35,7 @@ function Profile() {
       </Container>
     </Navbar>
 
-    <Container className="text-white" fluid style={{ minHeight: '80vh' ,
+    <Container className="text-white" fluid style={{ minHeight: '88vh' ,
                                                      backgroundColor: 'black',
                                                      padding: '50px 50px',
                                                         }}>
@@ -69,7 +69,7 @@ function Profile() {
                     <Container>
                     <p className="h5 text-danger mb-4">My Transaction</p>
                     <img
-                        src={mouse}
+                       src='https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=728&q=80'
                         width="100"
                         height="100"
                         alt="Dump Merch Logo"

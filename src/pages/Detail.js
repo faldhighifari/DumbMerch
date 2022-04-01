@@ -33,7 +33,7 @@ function Detail() {
         </Container>
     </Navbar>
       
-        <Container className="text-white" fluid style={{ minHeight: '80vh' ,
+        <Container className="text-white" fluid style={{ minHeight: '88vh' ,
                                                         backgroundColor: 'black',
                                                         padding: '50px 150px',
                                                         }}>

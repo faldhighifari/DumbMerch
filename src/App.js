@@ -16,6 +16,8 @@ import Register from "./pages/Register";
 import Detail from "./pages/Detail";
 import Complain from "./pages/Complain";
 import Fitur from "./pages/Fitur";
+import EditCategory from "./pages/EditCategory"
+import EditProduct from "./pages/EditProduct"
 
 function App() {
   return (
@@ -32,6 +34,9 @@ function App() {
         <Route exact path="/complain" element={<Complain />} />
         <Route exact path="/product" element={<Product />} />
         <Route exact path="/fitur" element={<Fitur />} />
+        <Route exact path="/editcategory" element={<EditCategory />} />
+        <Route exact path="/editproduct" element={<EditProduct />} />
+        
 
       </Routes>
     </Router>

@@ -66,7 +66,7 @@ function Category() {
                       <td>{index+1}</td>
                       <td style={{textAlign:'center'}}>{category.name}</td>
                       <td style={{textAlign:'center'}}>
-                        <Button variant="success me-3 px-5 py-1">Edit</Button>
+                        <Link to="/editcategory"><Button variant="success me-3 px-5 py-1">Edit</Button></Link>
                         <Button variant="danger px-5 py-1" onClick={handleShow}>Delete</Button>
                       </td>
                     </tr>

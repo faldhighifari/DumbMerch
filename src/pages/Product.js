@@ -74,7 +74,7 @@ function Product() {
                       <td style={{textAlign:'center'}}>{list.price}</td>
                       <td style={{textAlign:'center'}}>{list.stock}</td>
                       <td style={{textAlign:'center'}}>
-                        <Button variant="success me-3 px-5 py-1">Edit</Button>
+                        <Link to="/editproduct"><Button variant="success me-3 px-5 py-1">Edit</Button></Link>
                         <Button variant="danger px-5 py-1" onClick={handleShow}>Delete</Button>
                       </td>
                     </tr>
